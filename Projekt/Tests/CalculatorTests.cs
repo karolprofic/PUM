@@ -40,7 +40,7 @@ namespace Tests
         public void TestDivisionByZero()
         {
             Calculator.Calculator calculator = new Calculator.Calculator();
-            double result = calculator.Divide(10, 0);
+            calculator.Divide(10, 0);
         }
 
     }
